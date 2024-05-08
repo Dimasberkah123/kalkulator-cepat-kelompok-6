@@ -25,7 +25,7 @@ def show_BatasMaksimalKadarCu():
     st.markdown(
     """
     <style>
-    .element-selector {
+    ❗𓇼𓂃Batas Maksimal Kadar Cu {
         box-shadow: 2px 2px 5px grey;
     }
     </style>
