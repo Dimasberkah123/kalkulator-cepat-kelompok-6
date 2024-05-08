@@ -63,14 +63,14 @@ def show_pendahuluan():
     st.title("Tujuan")
     st.markdown('<hr style="border: none; height: 5px; background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);"/>',
                 unsafe_allow_html=True)
-    st.write("Selain bertujuan untuk menghitung kadar agar sesuai dengan SNI. Analisis kadar tembaga pada produk pangan juga dilakukan dengan beberapa tujuan utama:
+    st.write('''Selain bertujuan untuk menghitung kadar agar sesuai dengan SNI. Analisis kadar tembaga pada produk pangan juga dilakukan dengan beberapa tujuan utama:
 1. Kepatuhan Regulasi: Banyak negara memiliki batasan maksimum untuk kadar tembaga dalam produk pangan. Analisis dilakukan untuk memastikan bahwa produk pangan memenuhi standar keamanan pangan yang ditetapkan oleh badan regulasi.
 2. Keamanan Konsumen: Kadar tembaga yang berlebihan dalam makanan dapat menyebabkan toksisitas tembaga pada manusia. Oleh karena itu, analisis dilakukan untuk memastikan bahwa produk pangan aman dikonsumsi dan tidak menimbulkan risiko kesehatan bagi konsumen.
 3. Kualitas Produk: Tembaga dapat digunakan sebagai indikator kualitas dalam beberapa produk pangan tertentu. Kadar tembaga yang rendah atau tinggi dapat menunjukkan masalah dalam proses produksi atau pemrosesan yang mempengaruhi kualitas produk.
 4. Nutrisi: Tembaga adalah mineral penting yang diperlukan oleh tubuh manusia dalam jumlah yang tepat. Analisis kadar tembaga membantu dalam memahami kontribusi produk pangan terhadap asupan tembaga harian dan memastikan bahwa produk tersebut memberikan nutrisi yang cukup kepada konsumen.
 5. Penelitian dan Pengembangan: Analisis kadar tembaga juga dilakukan sebagai bagian dari penelitian dan pengembangan produk pangan baru. Hal ini membantu dalam memahami komposisi nutrisi produk dan memungkinkan perbaikan formulasi untuk meningkatkan kualitas dan nilai nutrisi produk.
 
-Dengan demikian, analisis kadar tembaga pada produk pangan penting untuk memastikan keamanan, kualitas, dan kepatuhan terhadap regulasi, serta untuk memahami kontribusi nutrisi produk terhadap kesehatan manusia.")
+Dengan demikian, analisis kadar tembaga pada produk pangan penting untuk memastikan keamanan, kualitas, dan kepatuhan terhadap regulasi, serta untuk memahami kontribusi nutrisi produk terhadap kesehatan manusia.''')
 
     def show_penggunaan_aplikasi():
     st.title("Petunjuk Penggunaan Aplikasi")
