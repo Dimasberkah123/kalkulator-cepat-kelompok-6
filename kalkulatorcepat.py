@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 
-
 def main():
     st.sidebar.header("Navigasi")
     selected = st.sidebar.selectbox("Pilih halaman:", ["Anggota Tim", "Pendahuluan", "Batas Maksimal Kadar Cu", "Petunjuk Penggunaan Aplikasi","Kalkulator Cepat Menghitung Kadar Cu (untuk sampel padatan)", "Kalkulator Cepat Menghitung Kadar Cu (untuk sampel cairan)"])
@@ -22,16 +21,6 @@ def main():
 def show_BatasMaksimalKadarCu():
     # Tabel informasi tambahan
     st.markdown("<h1 style='color:red'>❗𓇼𓂃Batas Maksimal Kadar Cu</h1>", unsafe_allow_html=True)
-    st.markdown(
-    """
-    <style>
-    body {
-        background-color: #f0f2f6;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
     default_kalkulatorcepat = {
         "Permen": "2.0 mg/kg",
         "Susu formula": "20.0 mg/kg",
@@ -70,7 +59,6 @@ def show_pendahuluan():
     st.markdown('<hr style="border: none; height: 5px; background: linear-gradient(to right, yellow, green, violet);"/>',
                 unsafe_allow_html=True)
     st.write("Logam Cu merupakan logam berat essensial yang dibutuhkan oleh tubuh dalam jumlah yang kecil, namun bila jumlah yang masuk ke dalam tubuh berlebihan akan berubah fungsi menjadi zat racun bagi tubuh. Keracunan Cu dapat menyebabkan gangguan pada jalur pernapasan. Pada makanan dan minuman sering terdapat unsur-unsur yang tidak mempunyai nilai nutrisi. Adanya unsur-unsur tersebut selalu dihubungkan dengan sifat-sifat yang tidak diinginkan dan kadang-kadang beracun sehingga membahayakan kesehatan konsumen. Oleh karena itu, diperlukan syarat-syarat untuk industri makanan dan minuman agar produksinya tidak membahayakan bagi konsumen, sehingga tujuan pembuatan web ini untuk menghitung kadar cemaran logam Cu yang telah dilakukan pengujian cemaran logam sesuai dengan SNI.")
-
     st.markdown("<h1 style='color:violet'>..𐙚⋅⋅ Tujuan 𝜗𝜚˚⋆</h1>", unsafe_allow_html=True)
     st.markdown('<hr style="border: none; height: 5px; background: linear-gradient(to right, red, orange, indigo);"/>',
                 unsafe_allow_html=True)
