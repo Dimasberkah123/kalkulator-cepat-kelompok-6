@@ -9,9 +9,9 @@ def main():
     if selected == "Anggota Tim":
         show_team_members()
     elif selected == "Pendahuluan":
-        show_informasitambahan()
-    elif selected == "Batas Maksimal Kadar Cu":
         show_pendahuluan()
+    elif selected == "Batas Maksimal Kadar Cu":
+        show_BatasMaksimalKadarCu()
     elif selected == "Kalkulator Cepat Menghitung Kadar Cu (untuk sampel padatan)":
         calculate_cu_content()
     elif selected == "Petunjuk Penggunaan Aplikasi":  
