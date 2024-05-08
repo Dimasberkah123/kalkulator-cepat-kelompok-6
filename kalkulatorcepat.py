@@ -72,7 +72,7 @@ def show_pendahuluan():
 
 Dengan demikian, analisis kadar tembaga pada produk pangan penting untuk memastikan keamanan, kualitas, dan kepatuhan terhadap regulasi, serta untuk memahami kontribusi nutrisi produk terhadap kesehatan manusia.''')
 
-    def show_penggunaan_aplikasi():
+def show_penggunaan_aplikasi():
     st.title("Petunjuk Penggunaan Aplikasi")
     st.markdown('<hr style="border: none; height: 5px; background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);"/>',
                 unsafe_allow_html=True)
