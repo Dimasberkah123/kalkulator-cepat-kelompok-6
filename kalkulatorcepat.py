@@ -87,7 +87,7 @@ def show_penggunaan_aplikasi():
 7. Klik kolom hitung kadar cemaran Cu''')            
 
 def show_team_members():
-    st.title('۫  ..˖💬໒꒰ྀ Anggota Kelompok 6꒱ྀིঌ₊')
+    st.markdown("<h1 style='color:indigo'>'۫  ..˖💬໒꒰ྀ Anggota Kelompok 6꒱ྀིঌ₊'</h1>", unsafe_allow_html=True)
     st.markdown('<hr style="border: none; height: 5px; background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);"/>',
                 unsafe_allow_html=True)
     st.write('''
