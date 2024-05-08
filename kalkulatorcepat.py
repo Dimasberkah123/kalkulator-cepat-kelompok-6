@@ -4,13 +4,13 @@ import pandas as pd
 
 def main():
     st.sidebar.header("Navigasi")
-    selected = st.sidebar.selectbox("Pilih halaman:", ["Anggota Tim", "Informasi Tambahan", "Pendahuluan", "Petunjuk Penggunaan Aplikasi","Kalkulator Cepat Menghitung Kadar Cu (untuk sampel padatan)", "Kalkulator Cepat Menghitung Kadar Cu (untuk sampel cairan)"])
+    selected = st.sidebar.selectbox("Pilih halaman:", ["Anggota Tim", "Pendahuluan", "Batas Maksimal Kadar Cu", "Petunjuk Penggunaan Aplikasi","Kalkulator Cepat Menghitung Kadar Cu (untuk sampel padatan)", "Kalkulator Cepat Menghitung Kadar Cu (untuk sampel cairan)"])
 
     if selected == "Anggota Tim":
         show_team_members()
-    elif selected == "Informasi Tambahan":
-        show_informasitambahan()
     elif selected == "Pendahuluan":
+        show_informasitambahan()
+    elif selected == "Batas Maksimal Kadar Cu":
         show_pendahuluan()
     elif selected == "Kalkulator Cepat Menghitung Kadar Cu (untuk sampel padatan)":
         calculate_cu_content()
@@ -19,9 +19,9 @@ def main():
     elif selected == "Kalkulator Cepat Menghitung Kadar Cu (untuk sampel cairan)":
         calculate_cu_liquid()
 
-def show_informasitambahan():
+def show_BatasMaksimalKadarCu():
     # Tabel informasi tambahan
-    st.title("🔖𓇼𓂃Informasi Tambahan")
+    st.title("🔖𓇼𓂃Batas Maksimal Kadar Cu")
     default_kalkulatorcepat = {
         "Permen": "2.0 mg/kg",
         "Susu formula": "20.0 mg/kg",
