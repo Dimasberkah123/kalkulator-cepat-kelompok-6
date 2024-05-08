@@ -31,10 +31,10 @@ def show_BatasMaksimalKadarCu():
     </style>
     """,
     unsafe_allow_html=True
-)
+    )
 
 # Panggil fungsi
-show_BatasMaksimalKadarCu()
+    show_BatasMaksimalKadarCu()
     default_kalkulatorcepat = {
         "Permen": "2.0 mg/kg",
         "Susu formula": "20.0 mg/kg",
