@@ -56,11 +56,11 @@ def show_informasitambahan():
     st.dataframe(df)
 
 def show_pendahuluan():
-    st.markdown("<h1 style='color:pink'>..𐙚⋅⋅Pendahuluan</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='color:pink'>..𐙚⋅⋅ Pendahuluan</h1>", unsafe_allow_html=True)
     st.markdown('<hr style="border: none; height: 5px; background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);"/>',
                 unsafe_allow_html=True)
     st.write("Logam Cu merupakan logam berat essensial yang dibutuhkan oleh tubuh dalam jumlah yang kecil, namun bila jumlah yang masuk ke dalam tubuh berlebihan akan berubah fungsi menjadi zat racun bagi tubuh. Keracunan Cu dapat menyebabkan gangguan pada jalur pernapasan. Pada makanan dan minuman sering terdapat unsur-unsur yang tidak mempunyai nilai nutrisi. Adanya unsur-unsur tersebut selalu dihubungkan dengan sifat-sifat yang tidak diinginkan dan kadang-kadang beracun sehingga membahayakan kesehatan konsumen. Oleh karena itu, diperlukan syarat-syarat untuk industri makanan dan minuman agar produksinya tidak membahayakan bagi konsumen, sehingga tujuan pembuatan web ini untuk menghitung kadar cemaran logam Cu yang telah dilakukan pengujian cemaran logam sesuai dengan SNI.")
-    st.title("Tujuan")
+    st.title("..𐙚⋅⋅ Tujuan")
     st.markdown('<hr style="border: none; height: 5px; background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);"/>',
                 unsafe_allow_html=True)
     st.write('''Selain bertujuan untuk menghitung kadar agar sesuai dengan SNI. Analisis kadar tembaga pada produk pangan juga dilakukan dengan beberapa tujuan utama:
@@ -73,8 +73,8 @@ def show_pendahuluan():
 Dengan demikian, analisis kadar tembaga pada produk pangan penting untuk memastikan keamanan, kualitas, dan kepatuhan terhadap regulasi, serta untuk memahami kontribusi nutrisi produk terhadap kesehatan manusia.''')
 
 def show_penggunaan_aplikasi():
-    st.title("Petunjuk Penggunaan Aplikasi")
-    st.markdown('<hr style="border: none; height: 5px; background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);"/>',
+    st.title("〃 ۫   ࣭ Petunjuk Penggunaan Aplikasi! 📢❗")
+    st.markdown('<hr style="border: none; height: 5px; background: linear-gradient(to right, indigo, violet);"/>',
                 unsafe_allow_html=True)
     st.write('''
 1. Pilih halaman yang diperlukan
