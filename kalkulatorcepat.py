@@ -21,7 +21,7 @@ def main():
 
 def show_BatasMaksimalKadarCu():
     # Tabel informasi tambahan
-    st.title("🔖𓇼𓂃Batas Maksimal Kadar Cu")
+    st.markdown("<h1 style='color:pink>❗𓇼𓂃Batas Maksimal Kadar Cu</h1>", unsafe_allow_html=True)
     default_kalkulatorcepat = {
         "Permen": "2.0 mg/kg",
         "Susu formula": "20.0 mg/kg",
