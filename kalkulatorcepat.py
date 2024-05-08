@@ -32,8 +32,7 @@ def show_BatasMaksimalKadarCu():
     """,
     unsafe_allow_html=True
 )
-# Panggil fungsi
-show_BatasMaksimalKadarCu()
+
     default_kalkulatorcepat = {
         "Permen": "2.0 mg/kg",
         "Susu formula": "20.0 mg/kg",
@@ -66,6 +65,9 @@ show_BatasMaksimalKadarCu()
 
     st.write("Berikut beberapa daftar maksimal kadar Cu pada produk pangan menurut SNI:")
     st.dataframe(df)
+
+# Panggil fungsi
+show_BatasMaksimalKadarCu()
 
 def show_pendahuluan():
     st.markdown("<h1 style='color:pink'>..𐙚⋅⋅ Pendahuluan 𝜗𝜚˚⋆</h1>", unsafe_allow_html=True)
