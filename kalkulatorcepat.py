@@ -55,9 +55,6 @@ def show_BatasMaksimalKadarCu():
     st.write("Berikut beberapa daftar maksimal kadar Cu pada produk pangan menurut SNI:")
     st.dataframe(df)
 
-# Panggil fungsi
-show_BatasMaksimalKadarCu()
-
 def show_pendahuluan():
     st.markdown("<h1 style='color:pink'>..𐙚⋅⋅ Pendahuluan 𝜗𝜚˚⋆</h1>", unsafe_allow_html=True)
     st.markdown('<hr style="border: none; height: 5px; background: linear-gradient(to right, yellow, green, violet);"/>',
